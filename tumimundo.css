@@ -11,3 +11,30 @@
 
 
 /* Formulier elementen */
+
+:root {
+    /*kleuren*/
+    --main-color: #CFD8ED;
+    --general-color: #434B75;
+    --button-text-color: #fff;
+    --important-color: #008811;
+    --error-color: #d40d0d;
+    --home-color: #fff;
+    --testing-color: #fff;
+    --lessons-color: #fff;
+    --statistics-color: #fff;
+    --profile-color: #fff;
+
+    /*font-size*/
+    --heading1: 28px;
+    --heading2: 24px;
+    --heading3: 20px;
+    --body-text: 16px;
+    --button-text: 14px;
+
+    /*font-family*/
+    --font-poppins:
+
+    
+
+}
