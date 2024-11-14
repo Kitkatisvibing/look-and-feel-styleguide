@@ -47,6 +47,9 @@ Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht va
 - pauze en pllay button
 <img width="147" alt="Scherm­afbeelding 2024-11-14 om 16 57 33" src="https://github.com/user-attachments/assets/7c7e9734-cb76-4c3b-9828-757cadba82fb">
 
+- border <br>
+  <img width="212" alt="Scherm­afbeelding 2024-11-14 om 16 57 42" src="https://github.com/user-attachments/assets/5075ec4e-3433-4ec0-9a32-c143dab0156a">
+
 
 
 ## Licentie
