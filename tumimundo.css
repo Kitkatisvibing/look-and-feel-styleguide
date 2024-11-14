@@ -33,6 +33,14 @@ body {
     --button-text: 14px;
 
     /*font-family*/
-    --font-poppins: helvetica;
-}
+    --font-poppins: "Poppins", sans-serif;
 
+    /*border-radius*/
+    --radius-m: 15px;
+
+    /*filter*/
+    --schadow: drop-shadow(3px 2px 5px #000000);
+
+    /*gradient voor hover*/
+    --linear-gradient: linear-gradient(0.25turn, #434B75, #5e69a4);
+}
