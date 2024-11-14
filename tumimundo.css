@@ -19,12 +19,12 @@ body {
     --button-text-color: #fff;
     --important-color: #008811;
     --error-color: #d40d0d;
-    --home-color: #fff;
-    --testing-color: #fff;
-    --lessons-color: #fff;
-    --statistics-color: #fff;
-    --profile-color: #fff;
-
+    --home-color: #a4cef8;
+    --testing-color: #7e9ff1;
+    --lessons-color: #a794f4;
+    --statistics-color: #99d1b3;
+    --profile-color: #f4c089;
+    
     /*font-size*/
     --heading1: 46px;
     --heading2: 24px;
