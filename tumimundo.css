@@ -1,6 +1,136 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
 
+   body {
+    /*kleuren*/
+    --main-color: #cfd8ed;
+    --general-color: #434b75;
+    --button-text-color: #fff;
+    --important-color: #008811;
+    --error-color: #d40d0d;
+    --home-color: #a4cef8;
+    --testing-color: #7e9ff1;
+    --lessons-color: #a794f4;
+    --statistics-color: #99d1b3;
+    --profile-color: #f4c089;
+    --select-form-color: #9264f4;
+  
+    /*font-size*/
+    --heading1: 46px;
+    --heading2: 24px;
+    --heading3: 20px;
+    --heading4: 15px;
+    --heading5: 12px;
+    --body-text-paragraph: 16px;
+    --button-text: 14px;
+    --text-bold: 
+  
+    /*font-family*/
+    --font-poppins:"Poppins", sans-serif;
+  
+  /* anker href link */
+  --text-decoration-anker: none;
+  --font-color-anker: black;
+  
+  /* anker href link hover */
+  --border-bottom-anker: 2px solid black;
+  
+    /* unordered list */
+    --ul-dot-styling: square;
+  
+    /* table */
+    --th-background-color: #9264f4;
+    --th-border: 1px solid black;
+    --td-border: 1px solid black;
+    --table-border-collapse: collapse;
+    --tr-padding: 5px;
+    --td-padding: 5px;
+    --tr-child-even-background-color: #ffffff;
+    --tr-child-odd-background-color: #efd1ff;
+  
+    /* text-form */
+    --width-text-form: 30%;
+    --height-text-form: 0.5rem;
+    --border-radius-text-form: 9px;
+    --border-text-form: 2px solid black;
+    --padding-text-form: 0.5rem;
+    --font-size-text-form: 1rem;
+    --background-color-text-form: rgb(255, 255, 255);
+    --letter-spacing-text-form: 1px;
+  
+    /* input type radio */
+    --appearance-radio-input: none;
+    --width-hight-radio-input: 15px;
+    --border-radio-input: 2px solid #fff;
+  
+    /* input type radio when checked */
+    --background-color-radio-input-checked: #444B75;
+    --border-color-radio-input-checked: #444B75;
+  
+    /* input type checkbox */
+    --appearance-checkbox-input: none;
+    --width-hight-checkbox-input: 15px;
+    --border-checkbox-input: 2px solid #fff;
+  
+    /* input type checkbox when checked */
+    --background-color-checkbox-input-checked: #444B75;
+    --border-color-checkbox-input-checked: #444B75;
+  
+    /* input type searchbar */
+    --width-searchbar: 30%;
+    --height-searchbar: 0.5rem;
+    --border-radius-searchbar: 9px;
+    --border-searchbar: 2px solid black;
+    --padding-searchbar: 0.5rem;
+    --font-size-searchbar: 1rem;
+    --background-color-searchbar: rgb(255, 255, 255);
+    --letter-spacing-searchbar: 1px;
+  
+    /* input type cellphone number */
+    --width-cellphone-number: 30%;
+    --height-cellphone-number: 0.2rem;
+    --border-raduis-cellphone-number: 9px;
+    --border-cellphone-number: 2px solid black;
+    --padding-cellphone-number: 0.5rem;
+    --font-size-cellphone-number: 1rem;
+    --background-color-cellphone-number: rgb(255, 255, 255);
+    --letter-spacing-cellphone-number: 1px;
+  
+    /* submit button */
+    --background-color-submit-button: #444B75;
+    --button-text-color: #fff;
+    --padding-submit-button: 10px 20px;
+    --border-radius-submit-button: 12px;
+    --font-size-submit-button: 16px;
+    --border-submit-button: none;
+  
+  /* all buttons hover*/
+  --background-gradient-all-buttons: linear-gradient(90deg, rgba(85,104,231,1) 72%, rgba(127,127,242,0.6795180722891566) 100%);
+  
+    /* normal button */
+    --background-color-button: #444B75;
+    --button-text-color: #fff;
+    --padding-button: 10px 20px;
+    --border-radius-button: 12px;
+    --font-size-button: 16px;
+    --border-button: none;
+  
+    /* option selector */
+    --background-color-select: #9264f4;
+    --letter-spacing: 3px;
+    --font-size: 16px;
+    --font-weight: larger;
+    --font-color: white;
+    --border-color-width: 2px solid #9264f4;
+    --border-radius: 5px;
+  
+    /* hover effecten */
+    --hover-focus-select-button: #ffffff;
+    --hover-transition: ;
+  }
+  
+
+
 body {
   font-family: var(--font-poppins);
   background-color: #cfd8ed;
@@ -246,130 +376,5 @@ select {
   }
 }
 
-body {
-  /*kleuren*/
-  --main-color: #cfd8ed;
-  --general-color: #434b75;
-  --button-text-color: #fff;
-  --important-color: #008811;
-  --error-color: #d40d0d;
-  --home-color: #a4cef8;
-  --testing-color: #7e9ff1;
-  --lessons-color: #a794f4;
-  --statistics-color: #99d1b3;
-  --profile-color: #f4c089;
-  --select-form-color: #9264f4;
 
-  /*font-size*/
-  --heading1: 46px;
-  --heading2: 24px;
-  --heading3: 20px;
-  --heading4: 15px;
-  --heading5: 12px;
-  --body-text-paragraph: 16px;
-  --button-text: 14px;
-  --text-bold: 
 
-  /*font-family*/
-  --font-poppins:"Poppins", sans-serif;
-
-/* anker href link */
---text-decoration-anker: none;
---font-color-anker: black;
-
-/* anker href link hover */
---border-bottom-anker: 2px solid black;
-
-  /* unordered list */
-  --ul-dot-styling: square;
-
-  /* table */
-  --th-background-color: #9264f4;
-  --th-border: 1px solid black;
-  --td-border: 1px solid black;
-  --table-border-collapse: collapse;
-  --tr-padding: 5px;
-  --td-padding: 5px;
-  --tr-child-even-background-color: #ffffff;
-  --tr-child-odd-background-color: #efd1ff;
-
-  /* text-form */
-  --width-text-form: 30%;
-  --height-text-form: 0.5rem;
-  --border-radius-text-form: 9px;
-  --border-text-form: 2px solid black;
-  --padding-text-form: 0.5rem;
-  --font-size-text-form: 1rem;
-  --background-color-text-form: rgb(255, 255, 255);
-  --letter-spacing-text-form: 1px;
-
-  /* input type radio */
-  --appearance-radio-input: none;
-  --width-hight-radio-input: 15px;
-  --border-radio-input: 2px solid #fff;
-
-  /* input type radio when checked */
-  --background-color-radio-input-checked: #444B75;
-  --border-color-radio-input-checked: #444B75;
-
-  /* input type checkbox */
-  --appearance-checkbox-input: none;
-  --width-hight-checkbox-input: 15px;
-  --border-checkbox-input: 2px solid #fff;
-
-  /* input type checkbox when checked */
-  --background-color-checkbox-input-checked: #444B75;
-  --border-color-checkbox-input-checked: #444B75;
-
-  /* input type searchbar */
-  --width-searchbar: 30%;
-  --height-searchbar: 0.5rem;
-  --border-radius-searchbar: 9px;
-  --border-searchbar: 2px solid black;
-  --padding-searchbar: 0.5rem;
-  --font-size-searchbar: 1rem;
-  --background-color-searchbar: rgb(255, 255, 255);
-  --letter-spacing-searchbar: 1px;
-
-  /* input type cellphone number */
-  --width-cellphone-number: 30%;
-  --height-cellphone-number: 0.2rem;
-  --border-raduis-cellphone-number: 9px;
-  --border-cellphone-number: 2px solid black;
-  --padding-cellphone-number: 0.5rem;
-  --font-size-cellphone-number: 1rem;
-  --background-color-cellphone-number: rgb(255, 255, 255);
-  --letter-spacing-cellphone-number: 1px;
-
-  /* submit button */
-  --background-color-submit-button: #444B75;
-  --button-text-color: #fff;
-  --padding-submit-button: 10px 20px;
-  --border-radius-submit-button: 12px;
-  --font-size-submit-button: 16px;
-  --border-submit-button: none;
-
-/* all buttons hover*/
---background-gradient-all-buttons: linear-gradient(90deg, rgba(85,104,231,1) 72%, rgba(127,127,242,0.6795180722891566) 100%);
-
-  /* normal button */
-  --background-color-button: #444B75;
-  --button-text-color: #fff;
-  --padding-button: 10px 20px;
-  --border-radius-button: 12px;
-  --font-size-button: 16px;
-  --border-button: none;
-
-  /* option selector */
-  --background-color-select: #9264f4;
-  --letter-spacing: 3px;
-  --font-size: 16px;
-  --font-weight: larger;
-  --font-color: white;
-  --border-color-width: 2px solid #9264f4;
-  --border-radius: 5px;
-
-  /* hover effecten */
-  --hover-focus-select-button: #ffffff;
-  --hover-transition: ;
-}
