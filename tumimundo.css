@@ -117,6 +117,19 @@ tr:nth-child(odd) {
   letter-spacing: var(--letter-spacing-text-form);
 }
 
+a {
+    text-decoration: var(--text-decoration-anker);
+    color: var(--font-color-anker);
+
+    &:hover {
+        border-bottom: var(--border-bottom-anker);
+      }
+
+
+}
+
+
+
 /* input radio */
 input[type="radio"] {
   appearance: none;
@@ -229,6 +242,13 @@ body {
 
   /*font-family*/
   --font-poppins:"Poppins", sans-serif;
+
+/* anker href link */
+--text-decoration-anker: none;
+--font-color-anker: black;
+
+/* anker href link hover */
+--border-bottom-anker: 2px solid black;
 
   /* unordered list */
   --ul-dot-styling: square;
