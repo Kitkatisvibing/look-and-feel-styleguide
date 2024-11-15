@@ -126,8 +126,8 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  background-color: #9264f4;
-  border-color: #9264f4;
+  background-color: #444B75;
+  border-color: #444B75;
 }
 
 /* input checkbox */
@@ -139,8 +139,8 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background-color: #9264f4;
-  border-color: #9264f4;
+  background-color: #444B75;
+  border-color: #444B75;
 }
 
 /* searchbar */
@@ -169,7 +169,7 @@ input[type="tel"] {
 
 /* submit button */
 input[type="submit"] {
-  background-color: #9264f4;
+  background-color: #444B75;
   color: white;
   padding: 10px 20px;
   border-radius: 12px;
@@ -179,7 +179,7 @@ input[type="submit"] {
 
 /* normal button */
 button[type="button"] {
-  background-color: #9264f4;
+  background-color: #444B75;
   color: white;
   padding: 10px 20px;
   border-radius: 12px;
@@ -258,8 +258,8 @@ body {
   --border-radio-input: 2px solid #fff;
 
   /* input type radio when checked */
-  --background-color-radio-input-checked: #9264f4;
-  --border-color-radio-input-checked: #9264f4;
+  --background-color-radio-input-checked: #444B75;
+  --border-color-radio-input-checked: #444B75;
 
   /* input type checkbox */
   --appearance-checkbox-input: none;
@@ -267,8 +267,8 @@ body {
   --border-checkbox-input: 2px solid #fff;
 
   /* input type checkbox when checked */
-  --background-color-checkbox-input-checked: #9264f4;
-  --border-color-checkbox-input-checked: #9264f4;
+  --background-color-checkbox-input-checked: #444B75;
+  --border-color-checkbox-input-checked: #444B75;
 
   /* input type searchbar */
   --width-searchbar: 30%;
@@ -291,7 +291,7 @@ body {
   --letter-spacing-cellphone-number: 1px;
 
   /* submit button */
-  --background-color-submit-button: #9264f4;
+  --background-color-submit-button: #444B75;
   --button-text-color: #fff;
   --padding-submit-button: 10px 20px;
   --border-radius-submit-button: 12px;
@@ -299,7 +299,7 @@ body {
   --border-submit-button: none;
 
   /* normal button */
-  --background-color-button: #9264f4;
+  --background-color-button: #444B75;
   --button-text-color: #fff;
   --padding-button: 10px 20px;
   --border-radius-button: 12px;
