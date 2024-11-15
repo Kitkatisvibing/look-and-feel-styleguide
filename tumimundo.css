@@ -39,6 +39,7 @@ figure:nth-child(10) code {
 }
 
 /* Typografie */
+
 .h1 {
   font-size: var(--heading1);
   font-family: var(--font-poppins);
