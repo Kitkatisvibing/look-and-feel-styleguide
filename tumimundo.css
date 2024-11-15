@@ -307,21 +307,9 @@ input[type="checkbox"]:checked {
 }
 
 /* searchbar */
-input[type="search"] {
+input[type="search"], input[type="tel"] {
   width: 30%;
   height: 0.5em;
-  border-radius: 9px;
-  border: 2px solid rgb(0, 0, 0);
-  padding: 0.5em;
-  font-size: 1rem;
-  background-color: rgb(255, 255, 255);
-  letter-spacing: 1px;
-}
-
-/* cellphone input */
-input[type="tel"] {
-  width: 30%;
-  height: 0.2em;
   border-radius: 9px;
   border: 2px solid rgb(0, 0, 0);
   padding: 0.5em;
