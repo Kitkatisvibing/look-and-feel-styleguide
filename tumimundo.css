@@ -38,35 +38,55 @@ figure:nth-child(10) code {
   border: 1px solid black;
 }
 
+figure:nth-child(11) code {
+    background-color: var(--testing-color);
+    border: 1px solid black;
+  }
+
+  figure:nth-child(12) code {
+    background-color: var(--lessons-color);
+    border: 1px solid black;
+  }
+
+  figure:nth-child(13) code {
+    background-color: var(--statistics-color);
+    border: 1px solid black;
+  }
+
+  figure:nth-child(14) code {
+    background-color: var(--profile-color);
+    border: 1px solid black;
+  }
+
 /* Typografie */
 
-.h1 {
+h1 {
   font-size: var(--heading1);
   font-family: var(--font-poppins);
 }
 
-.h2 {
+h2 {
   font-size: var(--heading2);
   font-family: var(--font-poppins);
 }
 
-.h3 {
+h3 {
   font-size: var(--heading3);
   font-family: var(--font-poppins);
 }
 
-.h4 {
+h4 {
   font-size: var(--heading4);
   font-family: var(--font-poppins);
 }
 
-.h5 {
+h5 {
   font-size: var(--heading5);
   font-family: var(--font-poppins);
 }
 
 /* simpele alineas */
-.paragraph {
+p {
   font-size: var(--body-text-paragraph);
   font-family: var(--font-poppins);
 }
