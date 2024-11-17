@@ -112,13 +112,13 @@
     --button-text-color: #fff;
     --padding-button: 10px 20px;
     --border-radius-button: 12px;
-    --font-size-button: 16px;
+    --font-size-button: 14px;
     --border-button: none;
   
     /* option selector */
     --background-color-select: #9264f4;
     --letter-spacing: 3px;
-    --font-size: 16px;
+    --font-size: 14px;
     --font-weight: larger;
     --font-color: white;
     --border-color-width: 2px solid #9264f4;
