@@ -14,6 +14,7 @@
     --statistics-color: #99d1b3;
     --profile-color: #f4c089;
     --select-form-color: #9264f4;
+    --background-color: #cfd8ed;
   
     /*font-size*/
     --heading1: 46px;
@@ -23,7 +24,7 @@
     --heading5: 12px;
     --body-text-paragraph: 16px;
     --button-text: 14px;
-    --text-bold: 
+    --text-bold: bold ;
   
     /*font-family*/
     --font-poppins:"Poppins", sans-serif;
@@ -133,7 +134,7 @@
 
 * {
   font-family: var(--font-poppins);
-  background-color: #cfd8ed;
+  /* background-color: #cfd8ed; */
 }
 
 /* Kleuren */
