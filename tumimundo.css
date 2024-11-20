@@ -35,6 +35,7 @@
   
   /* anker href link hover */
   --border-bottom-anker: 2px solid black;
+  --underline-text: text-hover:underline;
   
     /* unordered list */
     --ul-dot-styling: square;
